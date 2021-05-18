@@ -1,0 +1,43 @@
+.filterCard {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
+
+.parent1,.parent2 {
+    /*background-color: tomato;*/
+    padding: 20px;
+    width: 100%;
+}
+.parentT {
+    /*background-color: tomato;*/
+    padding: 20px;
+    display: inline-block;
+    width: auto;
+}
+.childT {
+    /* background-color: gold;*/
+    height: 100%;
+    width:75vw;
+}
+
+
+.selected {
+    background-color: greenyellow;
+}
+.asientos {
+    background: url(../../assets/img/asientos.gif) #444;
+    background-size: cover;
+    padding-bottom: 50%;
+}
+
+.idUser {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: green;
+}
+.inicio{
+    height: 450px;
+    width: 350px; 
+}
